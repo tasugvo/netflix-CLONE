@@ -1,0 +1,75 @@
+:root{
+    --branco:#e5e5e5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vw;
+    
+}
+
+
+img{
+    width: 100px;
+    /* height: 50%; */
+
+    margin-left: 10px;
+    margin-right: 6%;
+}
+
+nav{
+    width: 650px;
+}
+
+a{
+    color: var(--branco);
+    text-decoration: none;
+    
+    margin-right: 20px;
+}
+
+a:hover{
+    color: #949494;
+}
+
+
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 0px;
+}
+
+.user > svg{
+    width: 30px;
+    height: 30px;
+
+    margin-left: 20px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.image > img{
+    width: 45px;
+    height: 45px;
+
+    border-radius: 5px;
+}
+
+.image >svg{
+    width: 10%;
+    height: 10%;
+    margin-left: 7px;
+}
+

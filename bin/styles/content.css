@@ -1,0 +1,79 @@
+main{
+    margin: 10vh 3vw 10vh 3vw;/* primero:margem superior, segundo:margem direta, terceiro: margem inferior, quarto:margem esquerda */
+
+    font-size: 30px;
+    color: white;
+}
+
+.descri{
+    margin-bottom: 70px;
+}
+
+.filme-top{
+    background: url("../../source/img/theboys-banner.jpg");/* tem que escrever endereço em string */
+    background-size: cover;
+
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 15px;
+
+}
+
+
+/*gap*/
+
+
+.botoes{
+    display: flex;
+
+    /* width: 100%;
+    height: 100%; */
+    
+    /* background-color: red; */
+
+    align-items:center;/*vai ajustar a posição de flex-direction; perpendicular a flex-direction */
+    justify-content: flex-start;/*vai estar junto com flex-direction; */
+    
+    /* flex-direction: column; */
+
+    margin-left: 1vw;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+
+    margin-right: 1vw;
+    /* padding: 2px; */
+
+    font-size: 17px;
+
+    border-radius: 6px;
+    border: none; /* Remover a borda */
+
+    background-color: rgba(255, 255, 255, .40);
+    color: black;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s, transform 0.3s; /* Adicionando transição */
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, .60); /* Cor de fundo quando passa o mouse */
+}
+
+.botao:active {
+    transform: scale(0.85); /* Escala do botão ao ser clicado */
+}
+
+
+.botao>svg{
+    margin-right: 12px;
+    
+}
